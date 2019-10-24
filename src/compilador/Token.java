@@ -20,9 +20,12 @@ public class Token {
             THEN = 2,
             ELSE = 3,
             VAR = 4,
-            INTLITERAL = 5,
+            NUMEROS = 5,  
             BECOMES = 6,        // :=
-            BOOLEANLITERAL = 7,
+            TRUE = 
+            FALSE=
+            PONTO=
+            VIRGULA=
             END = 8,
             WHILE = 9,
             LPARENT = 10,
@@ -38,5 +41,23 @@ public class Token {
             PONTOVIRGULA = 20,
             DOISPONTOS = 21,
             EOT = 22;
-            
+            + =
+            - =
+            or =
+            * = 
+            / = 
+            AND =
+            MENORQ=
+            MAIORQ=
+            MENORIGUAL =
+            MAIORIGUAL =
+            IGUAL =
+            DIFERENTE = 
+            OUTROS = 
+            INTEGER =
+            REAL =
+            BOOLEAN =
+
+
+
 }

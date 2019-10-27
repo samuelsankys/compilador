@@ -1,0 +1,9 @@
+
+
+Nosso compilador vai aceitar caracteres do alfabeto letras maiuscular e minusculas
+
+
+
+
+referencia: 
+https://github.com/deryckb/Triangle.Net/blob/master/Triangle.Compiler/SyntacticAnalyzer/Scanner.cs

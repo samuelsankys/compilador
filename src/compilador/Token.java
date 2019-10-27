@@ -15,48 +15,49 @@ public class Token {
     }
     
     public final static byte
-            BEGIN = 0,
-            IF = 1,
-            THEN = 2,
-            ELSE = 3,
-            VAR = 4,
-            NUMEROS = 5,  
-            BECOMES = 6,        // :=
-            TRUE = 
-            FALSE=
-            PONTO=
-            VIRGULA=
-            END = 8,
-            WHILE = 9,
-            LPARENT = 10,
-            RPARENT =11,
-            OPERADOR = 12,
-            LCOLCHETE = 13,        // [
-            RCOLCHETE = 14,       // ]
-            OF = 15,
-            ARRAY = 16,
-            DO = 17,
-            IDENTIFICADOR = 18,
-            PROGRAM = 19,
-            PONTOVIRGULA = 20,
-            DOISPONTOS = 21,
-            EOT = 22;
-            + =
-            - =
-            or =
-            * = 
-            / = 
-            AND =
-            MENORQ=
-            MAIORQ=
-            MENORIGUAL =
-            MAIORIGUAL =
-            IGUAL =
-            DIFERENTE = 
-            OUTROS = 
-            INTEGER =
-            REAL =
-            BOOLEAN =
+                        
+                + = ,
+                - =,
+                * =,
+                / =,
+                AND =,
+                ARRAY = 16,
+                BECOMES = 6, // :=
+                BEGIN = 0,
+                BOOLEAN =,
+                DIFERENTE =,
+                DO = 17,
+                DOISPONTOS = 21,
+                ELSE = 3,
+                END = 8,
+                EOT = 22;
+                FALSE=,
+                IDENTIFICADOR = 18, // alfabeto
+                IF = 1,
+                IGUAL =,
+                INTEGER =,
+                LCOLCHETE = 13, // [
+                LPARENT = 10,
+                MAIORIGUAL =,
+                MAIORQ=,
+                MENORIGUAL =,
+                MENORQ=
+                NUMEROS = 5, // int literal do livro
+                OF = 15,
+                OPERADOR = 12, // são todos os sinais de operações. + - * / < > = \\
+                or =
+                OUTROS =
+                PONTO=
+                PONTOVIRGULA = 20,
+                PROGRAM = 19,
+                RCOLCHETE = 14, // ]
+                REAL =
+                RPARENT =11,
+                THEN = 2,
+                TRUE =
+                VAR = 4,
+                VIRGULA=
+                WHILE = 9,
 
 
 

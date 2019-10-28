@@ -1,5 +1,54 @@
 
 
+public class Scanner{
+    private char currentChar =  // first source charactere
+
+    private byte currentKind;
+    private StringBuffer currentSpelling;
+
+    private void take(char expectedChar){
+        if(currentChar == expectedChar){
+            currentSpelling.append(currentChar);
+            currentChar = // next source Charactere
+
+        }else{
+            // report error
+        }
+    }
+
+    private void takeIt(){
+        currentSpelling.append(currentChar);
+        currentChar = // next source character
+    }
+
+    private boolean isDigit(char c){
+        // returns true iff the character c is a digit
+    }
+
+    private boolean isLetter(char c){
+        // Returns true iff the character c is a letter
+    }
+
+    private boolean isGraphic(char c){
+        // 
+    }
+
+    private byte scanToken(){
+         // as above
+    }
+
+    public Token scan(){
+        while(currentChar == ' ' || currentChar == '\n')   // no livro tem o separador !
+            scanSeparator();
+        currentSpelling = new StringBuffer("");
+        currentKind = scanToken();
+
+        return new Token(currentKind, currentSpelling.toString());
+    }
+
+
+
+
 private byte  scanToken(){
 
             switch (currentChar){
@@ -190,5 +239,28 @@ private byte  scanToken(){
                     return false;
             }
         }
+
+    private void scanSeparator(){
+        switch(currentChar){
+            case '!' : {
+                takeIt();
+                while( isGraphic(currentChar) ){
+                    takeIt();
+                }
+                take('\n');
+            }
+            break;
+
+            case ' ': case '\n':
+                takeIt();
+                break;
+
+
+
+
+        }
     }
-}
+
+
+
+    }

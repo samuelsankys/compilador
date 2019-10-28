@@ -7,7 +7,7 @@ package compilador;
 
 public class Token {
     public byte kind; //tipo
-    public String spelling;
+    public String spelling;  // 
     
     public Token (byte kind, String spelling){
         this.kind = kind;
